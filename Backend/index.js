@@ -6,30 +6,39 @@ import cors from "cors";
 import bookRoute from "./route/book.route.js";
 import userRoute from "./route/user.route.js";
 
-dotenv.config();
-
 const app = express();
 
-app.use(cors());
+dotenv.config();
+
+// Allow requests from your frontend (localhost:5173 during local development and the deployed frontend URL)
+const allowedOrigins = [
+    'http://localhost:5173',  // For local development
+    'https://book-nest.vercel.app'  // For the deployed frontend (replace with actual URL)
+];
+
+app.use(cors({
+    origin: allowedOrigins,  // Allow the specific origins
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],  // You can add more methods if needed
+    allowedHeaders: ['Content-Type', 'Authorization'],  // Adjust headers if needed
+}));
+
 app.use(express.json());
 
-// Use Vercel's dynamic port
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 const URI = process.env.MongoDBURI;
 
 // Connect to MongoDB
-mongoose.connect(URI)
-  .then(() => {
+try {
+    mongoose.connect(URI);
     console.log("Connected to mongoDB");
-  })
-  .catch(error => {
+} catch (error) {
     console.log("Error: ", error);
-  });
+}
 
 // Defining routes
 app.use("/book", bookRoute);
 app.use("/user", userRoute);
 
 app.listen(PORT, () => {
-  console.log(`Server is listening on port ${PORT}`);
+    console.log(`Server is listening on port ${PORT}`);
 });
