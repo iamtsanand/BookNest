@@ -31,7 +31,7 @@ function Contact() {
     });
 
     try {
-      const res = await axios.post("http://localhost:4001/contact", formData);
+      const res = await axios.post(`${import.meta.env.VITE_API_URL}/contact`, formData);
       console.log("Form submitted successfully:", res.data);
 
       // Set form submission success and display the success message
