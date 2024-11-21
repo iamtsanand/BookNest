@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "name": "Clean Code",
+        "title": "Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin",
+        "price": "2500",
+        "category": "Paid",
+        "image": "https://img.freepik.com/free-vector/open-book-with-abstract-shapes_1368-371.jpg?t=st=1730980399~exp=1730983999~hmac=6ad65a0633ca498a96ba25fdb203ad0a9dd4cf5e0327c571ad24d36a6491da8f&w=740",
+        "amazon_link": "https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/"
+    },
+    {
+        "id": 2,
+        "name": "The Pragmatic Programmer",
+        "title": "The Pragmatic Programmer: Your Journey to Mastery by Andrew Hunt and David Thomas",
+        "price": "3000",
+        "category": "Paid",
+        "image": "https://img.freepik.com/free-vector/open-book-with-abstract-shapes_1368-371.jpg?t=st=1730980399~exp=1730983999~hmac=6ad65a0633ca498a96ba25fdb203ad0a9dd4cf5e0327c571ad24d36a6491da8f&w=740",
+        "amazon_link": "https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X"
+    },
+    {
+        "id": 3,
+        "name": "Introduction to Algorithms",
+        "title": "Introduction to Algorithms by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein",
+        "price": "8500",
+        "category": "Paid",
+        "image": "https://img.freepik.com/free-vector/open-book-with-abstract-shapes_1368-371.jpg?t=st=1730980399~exp=1730983999~hmac=6ad65a0633ca498a96ba25fdb203ad0a9dd4cf5e0327c571ad24d36a6491da8f&w=740",
+        "amazon_link": "https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/"
+    },
+    {
+        "id": 4,
+        "name": "JavaScript: The Good Parts",
+        "title": "JavaScript: The Good Parts by Douglas Crockford",
+        "price": "3500",
+        "category": "Paid",
+        "image": "https://img.freepik.com/free-vector/open-book-with-abstract-shapes_1368-371.jpg?t=st=1730980399~exp=1730983999~hmac=6ad65a0633ca498a96ba25fdb203ad0a9dd4cf5e0327c571ad24d36a6491da8f&w=740",
+        "amazon_link": "https://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742/"
+    },
+    {
+        "id": 5,
+        "name": "Python Crash Course",
+        "title": "Python Crash Course: A Hands-On, Project-Based Introduction to Programming by Eric Matthes",
+        "price": "1200",
+        "category": "Paid",
+        "image": "https://img.freepik.com/free-vector/open-book-with-abstract-shapes_1368-371.jpg?t=st=1730980399~exp=1730983999~hmac=6ad65a0633ca498a96ba25fdb203ad0a9dd4cf5e0327c571ad24d36a6491da8f&w=740",
+        "amazon_link": "https://www.amazon.com/Python-Crash-Course-Project-Based-Introduction/dp/1593279280/"
+    },
+    {
+        "id": 6,
+        "name": "The Complete Web Developer Course 2.0",
+        "title": "The Complete Web Developer Course 2.0 by Rob Percival",
+        "price": "500",
+        "category": "Paid",
+        "image": "https://img.freepik.com/free-vector/open-book-with-abstract-shapes_1368-371.jpg?t=st=1730980399~exp=1730983999~hmac=6ad65a0633ca498a96ba25fdb203ad0a9dd4cf5e0327c571ad24d36a6491da8f&w=740",
+        "amazon_link": "https://github.com/PacktPublishing/The-Complete-Web-Developer-Course-2.0"
+    },
+    {
+        "id": 7,
+        "name": "Head First Java",
+        "title": "Head First Java by Kathy Sierra and Bert Bates",
+        "price": "3000",
+        "category": "Paid",
+        "image": "https://img.freepik.com/free-vector/open-book-with-abstract-shapes_1368-371.jpg?t=st=1730980399~exp=1730983999~hmac=6ad65a0633ca498a96ba25fdb203ad0a9dd4cf5e0327c571ad24d36a6491da8f&w=740",
+        "amazon_link": "https://www.amazon.com/Head-First-Java-Kathy-Sierra/dp/0596009208/"
+    },
+    {
+        "id": 8,
+        "name": "You Don't Know JS",
+        "title": "You Don't Know JS (book series) by Kyle Simpson",
+        "price": "3300",
+        "category": "Paid",
+        "image": "https://img.freepik.com/free-vector/open-book-with-abstract-shapes_1368-371.jpg?t=st=1730980399~exp=1730983999~hmac=6ad65a0633ca498a96ba25fdb203ad0a9dd4cf5e0327c571ad24d36a6491da8f&w=740",
+        "amazon_link": "https://www.amazon.com/You-Dont-Know-JS-Scopes/dp/1449331815/"
+    }
+   
+]
