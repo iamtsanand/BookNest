@@ -12,8 +12,7 @@ dotenv.config();
 
 // Allow requests from your frontend (localhost:5173 during local development and the deployed frontend URL)
 const allowedOrigins = [
-    'http://localhost:5173',  // For local development
-    'https://book-nest.vercel.app'  // For the deployed frontend (replace with actual URL)
+    '*'  // For all origins
 ];
 
 app.use(cors({
