@@ -7,7 +7,7 @@
     },
     {
       "src": "vite.config.js",
-      "use": "@vercel/node"
+      "use": "@vercel/static-build"
     }
   ],
   "routes": [
