@@ -13,6 +13,7 @@ dotenv.config();
 // Allow requests from your frontend (localhost:5173 during local development and the deployed frontend URL)
 const allowedOrigins = [
     'http://localhost:5173',  // For local development
+    'http://localhost:3000',
     'https://book-nest.vercel.app',// For the deployed frontend (replace with actual URL)
     'http://192.168.0.105:3000'
 ];
